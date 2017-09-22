@@ -1,0 +1,42 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open on weekdays from 10:30AM - 7:00PM", "Our hours are 10:30AM - 7:00PM on weekdays"]
+        },
+        {"tag": "deals",
+         "patterns": ["What deals do you have?", "What kinds of deals are there?", "What do you sell?" ],
+         "responses": ["We have many different packages current, for more information please call Evon at 65327709", "We have travel packages to various popular destination"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["Please call Evon Ng for more details at 6532 7709 :)", "We accept mostly cash/back transfer"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open on weekdays from 10:30AM - 7:00PM", "Our hours are 10:30AM - 7:00PM on weekdays"]
+        },
+        {"tag": "booking",
+         "patterns": ["Can We book a holiday?", "I'd like to book a holiday", "How does this work?" ],
+         "responses": ["Are you looking to book today or later this week?"],
+         "context_set": "rentalday"
+        },
+        {"tag": "today",
+         "patterns": ["today"],
+         "responses": ["For booking today please call Evon Ng at 6532 7709", "Same-day booking please call 6532 7709"],
+         "context_filter": "rentalday"
+        }
+   ]
+}
