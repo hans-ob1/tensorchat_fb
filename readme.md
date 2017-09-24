@@ -31,7 +31,3 @@ For evaluation:
 
 ##### For Deployment onto facebook messenger
 follow the instructions at: https://blog.hartleybrody.com/fb-messenger-bot/
-
-
-##### Demo Video on YouTube
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/ZW0B2wk8dPA/0.jpg)](http://www.youtube.com/watch?v=ZW0B2wk8dPA "Yolo Road Obstacle Detector")
